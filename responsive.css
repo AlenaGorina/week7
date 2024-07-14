@@ -1,0 +1,19 @@
+.container {
+  max-width: 1600px;
+}
+
+.header {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer-info {
+  width: 23%;
+}

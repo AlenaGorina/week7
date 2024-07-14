@@ -1,0 +1,177 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 7px 22px;
+  background-color: #ffb800;
+  border-radius: 15px;
+
+  color: #ffffff;
+
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #e2b33b;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+  background-color: #fcba15;
+}
+/* Header  */
+
+.header {
+  padding-top: 46px;
+  background-color: #ffffff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 76px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.header-nav span {
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.header-nav button {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: yellow;
+  border: 2px solid yellow;
+  margin-left: 20px;
+}
+
+.nav-button {
+  display: none;
+}
+
+/* Header content */
+
+.header-content {
+  margin-top: 124px;
+  max-width: 500px;
+}
+
+.header-row {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.header-heading {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 44px;
+}
+
+.services {
+  padding: 80px 0;
+}
+.services_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.services_grid-item {
+  width: 300px;
+}
+
+.services-icon {
+  width: 250px;
+  margin: 0 auto 30px;
+}
+
+/* Service */
+
+.services-2 {
+  padding: 90px 0;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 30px;
+  row-gap: 60px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1 1 0;
+  min-width: 315px;
+}
+
+.service-card-img {
+  margin-bottom: 30px;
+}
+
+.service-card-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.service-card p {
+  line-height: 2;
+}
+
+/* Footer */
+
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+  background-color: black;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.contacts-content {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+.contacts-footer {
+  color: #ffffff;
+}
